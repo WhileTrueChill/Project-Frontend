@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.heart{
+
+    font-size: 200px;
+    /* box-shadow: 3px 10px 15px red; */
+box-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+       animation: heart 7s infinite;
+    display:inline-block;
+        border-radius: 20px;
+
+}
+
+@keyframes heart{
+
+    0%{
+        transform: scale(0.8);
+    }
+    25%{
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
+
+
+
+
+
